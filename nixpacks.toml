@@ -1,3 +1,8 @@
+providers = ["python"]
+
+[phases.setup]
+aptPkgs = ["libmysqlclient-dev", "libssl-dev", "libmysqlcppconn-dev", "python3-pip", "build-essential", "python3-dev", "libffi-dev"]
+
 # .streamlit/secrets.toml
 
 # Everything in this section will be available as an environment variable
